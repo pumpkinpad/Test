@@ -1,10 +1,7 @@
-import React, { memo } from 'react'
-import PropTypes from 'prop-types'
+import React, { memo } from "react";
 
-const change = memo(function change(props) {
-    return (
-        <div>
-            chasd
-        </div>
-    )
-export default change
+const change = () => {
+  return <div>chasd</div>;
+};
+
+export default change;
