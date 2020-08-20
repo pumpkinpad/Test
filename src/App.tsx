@@ -9,7 +9,7 @@ const App = () => {
     "bg-blue-500 w-1/3 m-2 p-4 rounded-full",
     "bg-blue-400 w-1/3 m-2 p-4 rounded-full",
   ];
-  const change;
+
   const handleMouseEnter = (e: any) => {
     e.target.className = "bg-red-700 w-1/2 p-10 rounded-full";
   };
